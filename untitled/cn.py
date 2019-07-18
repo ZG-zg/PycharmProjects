@@ -114,7 +114,7 @@ print(len(results1))
 oldpwd = b'123456'
 newpwd = b'1234'
 conn.passwd_s("cn=Manager1,ou=Developer,o=swust,dc=mypaas,dc=com", oldpwd, newpwd)'''
-#conn.delete_s("cn=Manager2,ou=Developer,o=swust,dc=mypaas,dc=com")
+conn.delete_s("cn=Manager1,ou=Tester,o=swust,dc=mypaas,dc=com")
 '''ldap_result_id = conn.search(u'dc=mypaas,dc=com', ldap.SCOPE_SUBTREE, 'cn=Manager12',None)
 result_type, result_data = conn.result(ldap_result_id, 0)
 if result_type == ldap.RES_SEARCH_ENTRY:

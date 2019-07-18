@@ -6,5 +6,5 @@ for i in range(1,len(s)):
     s1 = s[i].split('=')
     k = {(s1[0],s1[1])}
     l.update(k)
-"dfdfdfdff"
+"dfdfdfdfflllllzxzx"
 print(l)
