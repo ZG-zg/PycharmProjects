@@ -1,0 +1,14 @@
+version: 1 
+dn: uid=bjensen, ou=people, dc=example, dc=com 
+objectclass: top 
+objectclass: person 
+objectclass: organizationalPerson 
+objectclass: inetOrgPerson 
+cn: Barbara Jensen 
+cn: Babs Jensen 
+givenName: Barbara 
+sn: Jensen 
+uid: bjensen 
+mail: bjensen@example.com 
+telephoneNumber: +1 408 555 1212 
+description: Manager, Switching Products Division
